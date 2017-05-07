@@ -62,7 +62,7 @@ class App extends React.Component {
     this.setState({
       board,
       winner: null,
-      whoseTurn: whoWentFirst,
+      whoseTurn: whoWentFirst === 'X' ? 'O': 'X',
       whoWentFirst: whoWentFirst === 'X' ? 'O': 'X'
     });
   };
