@@ -63,7 +63,8 @@ class App extends React.Component {
       board,
       winner: null,
       whoseTurn: whoWentFirst === 'X' ? 'O': 'X',
-      whoWentFirst: whoWentFirst === 'X' ? 'O': 'X'
+      whoWentFirst: whoWentFirst === 'X' ? 'O': 'X',
+      turnCount: 0
     });
   };
 
