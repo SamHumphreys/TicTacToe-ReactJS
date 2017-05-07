@@ -1,0 +1,17 @@
+
+.square {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.app {
+  text-align: center;
+}
